@@ -1,0 +1,57 @@
+      body {
+          background-color: #cdd7e1;
+      }
+
+      .hero-section {
+          background-image: url("https://images-pw.pixieset.com/sample_photos/theme_8_c5c72c66_XL.jpg");
+          background-size: cover;
+          background-position: bottom;
+          color: #f8f9fa;
+          padding: 20vw;
+
+          .overlay-nav {
+              position: fixed;
+              top: 0;
+              left: 0;
+              width: 100%;
+              z-index: 1000;
+          }
+
+          .overlay-nav .navbar-brand {
+              color: #fff;
+          }
+
+          .overlay-nav .nav-link {
+              color: #fff;
+          }
+
+          .overlay-nav .nav-link:hover {
+              color: #f8f9fa;
+          }
+      }
+
+      .gallery-img {
+          cursor: pointer;
+          transition: transform 0.3s ease-in-out;
+      }
+
+      .gallery-img:hover {
+          transform: scale(1.1);
+      }
+
+      h1 {
+          font-family: "Times New Roman", Times, serif, Impact, Haettenschweiler,
+              "Arial Narrow Bold", sans-serif;
+          font-size: calc(1.375rem + 1.5vw);
+          text-align: start;
+      }
+
+      .testimonial-slide {
+          text-align: center;
+      }
+
+      .testimonial-slide img {
+          width: 200px;
+          height: 300px;
+          margin: 50px;
+      }
